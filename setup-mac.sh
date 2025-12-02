@@ -107,6 +107,7 @@ install_dev_tools() {
   git config --global init.defaultBranch main 2>/dev/null || true
   git config --global pull.rebase true 2>/dev/null || true
   git config --global rerere.enabled true 2>/dev/null || true
+  git config --global core.editor nano 2>/dev/null || true
 
   success "Dev tools & Git configured"
 }
